@@ -1,18 +1,18 @@
 from setuptools import setup
 from setuptools import find_packages
 
-# change this.
-NAME = "your package name"
-AUTHOR = "your name"
-EMAIL = "your mail"
-URL = "your project url"
-LICENSE = "your license"
-DESCRIPTION = "your project description"
+
+NAME = "ashe"
+AUTHOR = "Ailln"
+EMAIL = "kinggreenhall@gmail.com"
+URL = "https://github.com/Ailln/ashe"
+LICENSE = "MIT License"
+DESCRIPTION = "ashe is super extension of Python."
 
 if __name__ == "__main__":
     setup(
         name=NAME,
-        version="0.0.1",
+        version="0.0.2",
         author=AUTHOR,
         author_email=EMAIL,
         url=URL,
@@ -23,21 +23,10 @@ if __name__ == "__main__":
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
         long_description_content_type='text/markdown',
-        # change package_name to your package name.
-        entry_points={
-            "console_scripts": [
-                "package_name=package_name.shell:run"
-            ]
-        },
-        package_data={
-            # change package_name to your package name.
-            "package_name": ["src/*.txt"]
-        },
         zip_safe=True,
         classifiers=[
             "Programming Language :: Python :: 3",
-            # change $license to your license.
-            "License :: OSI Approved :: $license",
+            f"License :: OSI Approved :: {LICENSE}",
             "Operating System :: OS Independent",
         ],
         python_requires=">=3.6"
