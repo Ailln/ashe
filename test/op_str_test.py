@@ -1,6 +1,6 @@
 import unittest
 
-from ashe import find 
+from ashe import find
 
 
 class DictTest(unittest.TestCase):
@@ -10,8 +10,8 @@ class DictTest(unittest.TestCase):
         self.output = [(0, 2), (21, 23)]
 
     def test_find(self) -> None:
-         self.assertEqual(find(self.input1, self.input2), self.output)
-        
+        self.assertEqual(find(self.input1, self.input2), self.output)
+
 
 if __name__ == '__main__':
     unittest.main()

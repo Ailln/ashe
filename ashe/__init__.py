@@ -1,16 +1,18 @@
-from . import version
 from .op_dict import merge
 from .op_dict import remove
 from .op_sys import size
 from .op_str import find
+from .file import read
+from .file import write
 
 
-__version__ = version.VERSION
+__version__ = "0.0.3"
 
 __all__ = [
-    "version",
     "merge",
     "remove",
     "size",
-    "find"
+    "find",
+    "read",
+    "write"
 ]
