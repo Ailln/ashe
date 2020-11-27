@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 
 NAME = "ashe"
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 AUTHOR = "Ailln"
 EMAIL = "kinggreenhall@gmail.com"
 URL = "https://github.com/Ailln/ashe"

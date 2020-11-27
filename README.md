@@ -23,6 +23,11 @@ pip install ashe
 
    - find
 
+4. File
+
+   - read
+   - write
+
 ## License
 
 [![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
