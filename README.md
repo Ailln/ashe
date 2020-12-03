@@ -61,6 +61,8 @@ print(remove("a", d))
 
 \- Because `len(list)` not `list.len()`.
 
+> I find built-in method named `reversed` 🤦‍♂️
+
 ## License
 
 [![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
