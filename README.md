@@ -2,7 +2,7 @@
 
 ✨ `ashe` is a super extension of Python.
 
-## Feature
+## 1 Feature
 
 1. System
 
@@ -26,12 +26,17 @@
    - read
    - write
 
-## Getting Started
+6. Date
 
-## installation
+   - today
+   - yesterday
 
-```bash
-pip install ashe
+## 2 Getting Started
+
+### installation
+
+```shell
+pip install ashe -U
 ```
 
 ### usage
@@ -53,16 +58,22 @@ print(reverse(l))
 d = {"a": 1, "b": 2}
 print(remove("a", d))
 # {'b': 2}
+
+# get today and yesterday
+print(today())
+# 2022-10-15
+print(yesterday())
+# 2022-10-14
 ```
 
-## Consistency
+## 3 Consistency
 
 \- Why `reverse(list)` not `list.reverse()`?
 
 \- Because `len(list)` not `list.len()`.
 
-> I find built-in method named `reversed` 🤦‍♂️
+> I find built-in method named `reversed` 🤦‍.
 
-## License
+## 4 License
 
 [![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)

@@ -3,6 +3,6 @@ def read(file_path: str) -> str:
         return f_read.read()
 
 
-def write(file_path: str, file: object) -> None:
+def write(file_path: str, file: str) -> None:
     with open(file_path, "w") as f_write:
         f_write.write(file)

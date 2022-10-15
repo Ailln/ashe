@@ -17,5 +17,5 @@ class DictTest(unittest.TestCase):
         self.assertEqual(remove("1", self.dict3), self.dict2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC1090
 source ~/anaconda3/etc/profile.d/conda.sh
 
 ## conda env create

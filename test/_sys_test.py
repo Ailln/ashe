@@ -12,5 +12,5 @@ class SysTest(unittest.TestCase):
         self.assertEqual(size(self.input), self.output)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -1,13 +1,12 @@
-from .op_dict import merge
-from .op_dict import remove
-from .op_list import reverse
-from .op_sys import size
-from .op_str import find
-from .file import read
-from .file import write
+from ._dict import merge, remove
+from ._list import reverse
+from ._sys import size
+from ._str import find
+from ._date import today, yesterday
+from ._file import read, write
 
 
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 
 __all__ = [
     "merge",
@@ -16,5 +15,7 @@ __all__ = [
     "size",
     "find",
     "read",
-    "write"
+    "write",
+    "today",
+    "yesterday"
 ]

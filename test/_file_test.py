@@ -1,10 +1,10 @@
+import os
 import unittest
 
-from ashe import read
-from ashe import write
+from ashe import read, write
 
 
-class DictTest(unittest.TestCase):
+class FileTest(unittest.TestCase):
     def setUp(self) -> None:
         self.data = "123"
         self.path = "./test/test.txt"
@@ -13,6 +13,9 @@ class DictTest(unittest.TestCase):
         write(self.path, self.data)
         self.assertEqual(read(self.path), self.data)
 
+    def tearDown(self) -> None:
+        os.remove(self.path)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
