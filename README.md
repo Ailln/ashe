@@ -30,6 +30,7 @@
 
    - today
    - yesterday
+   - get_interval_days
 
 ## 2 Getting Started
 
@@ -61,9 +62,11 @@ print(remove("a", d))
 
 # get today and yesterday
 print(today())
-# 2022-10-15
+# 2022-10-23
 print(yesterday())
-# 2022-10-14
+# 2022-10-22
+print(get_interval_days(interval=3))
+# ["2022-10-21", "2022-10-22", "2022-10-23"]
 ```
 
 ## 3 Consistency
