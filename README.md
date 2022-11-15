@@ -30,7 +30,11 @@
 
    - today
    - yesterday
+   - week
+   - year
    - get_interval_days
+   - get_week_days
+   - get_month_days
 
 ## 2 Getting Started
 

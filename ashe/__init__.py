@@ -2,11 +2,11 @@ from ._dict import merge, remove
 from ._list import reverse
 from ._sys import size
 from ._str import find
-from ._date import today, yesterday, get_interval_days
+from ._date import today, yesterday, week, month, year, get_interval_days, get_week_days, get_month_days
 from ._file import read, write
 
 
-__version__ = "0.0.6"
+__version__ = "0.0.7"
 
 __all__ = [
     "merge",
@@ -18,5 +18,10 @@ __all__ = [
     "write",
     "today",
     "yesterday",
-    "get_interval_days"
+    "week",
+    "month",
+    "year",
+    "get_interval_days",
+    "get_week_days",
+    "get_month_days"
 ]
